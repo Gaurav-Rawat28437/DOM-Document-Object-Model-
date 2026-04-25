@@ -1,0 +1,13 @@
+local storage
+
+-permanent until manually cleared
+-shared across all tabs and window of same origin
+-data is persent after closing browser
+-ex-save user preferance like themes
+
+session storage
+
+-temporary cleard when tab close
+-limited to a single tab
+-data is absent after closing browser
+-ex-temporary Form data,session information

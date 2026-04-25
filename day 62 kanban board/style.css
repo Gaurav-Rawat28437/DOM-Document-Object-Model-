@@ -1,0 +1,97 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    padding: 20px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input Section */
+.task-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.task-form input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.task-form button {
+    padding: 8px 15px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-form button:hover {
+    background: #0056b3;
+}
+
+/* Board */
+.board {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Columns */
+.column {
+    background: #e9ecef;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.column h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border: 1px solid black;
+}
+
+.card h4 {
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+#todo{
+    
+    height: 300px;   
+    overflow-y: scroll;
+
+}
+

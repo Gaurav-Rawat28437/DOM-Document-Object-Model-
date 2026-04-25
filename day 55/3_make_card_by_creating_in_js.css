@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+main{
+    padding-left: 100px;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card{
+    
+    width: 200px;
+
+    border: 1px solid black;
+    
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+}
+
+.bottomComtainer{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.smallestDiv{
+    display: flex;
+    justify-content: space-between;
+}
+

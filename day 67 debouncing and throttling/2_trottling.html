@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>
+        trottled
+    </h1>
+
+    <p><ul>
+        <li>Throttling limits how often a function runs in a given time.</li>
+        <li>Function runs once in a fixed time interval.</li>
+        <li>Even if an event happens many times, the function runs only after the delay.</li>
+    </ul></p>
+
+
+
+
+    <h3>Diffence</h3>
+    <table >
+  <tr>
+    <th>Feature</th>
+    <th>Debouncing</th>
+    <th>Throttling</th>
+  </tr>
+
+  <tr>
+    <td>Basic Idea</td>
+    <td>Function runs after event stops for some time</td>
+    <td>Function runs once in a fixed time interval</td>
+  </tr>
+
+  <tr>
+    <td>Execution</td>
+    <td>Only the last event runs</td>
+    <td>Runs continuously but with a limit</td>
+  </tr>
+
+  <tr>
+    <td>Event Calls</td>
+    <td>Many events → 1 function call</td>
+    <td>Many events → multiple limited calls</td>
+  </tr>
+
+  <tr>
+    <td>Use Case</td>
+    <td>Search bar, API request</td>
+    <td>Scroll, mouse move</td>
+  </tr>
+
+  <tr>
+    <td>Goal</td>
+    <td>Reduce unnecessary calls</td>
+    <td>Control execution rate</td>
+  </tr>
+</table>
+
+<br><br><br>
+<label for="ip">Serch something</label>
+<input id="ip" type="text">
+
+<script src="./2_trottling.js"></script>
+</body>
+</html>
