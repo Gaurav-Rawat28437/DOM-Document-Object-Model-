@@ -29,13 +29,13 @@ rigthContainer.classList.add("rigthContainer")
 
 
 //store value
-let titleValue
+// let titleValue
 title.addEventListener("input",(e)=>{
-     titleValue=e.target.value
+     title.value=e.target.value
 })
-let discValue
+// let discValue
 disc.addEventListener("input",(e)=>{
-    discValue=e.target.value
+    disc.value=e.target.value
 })
 
 addBtn.addEventListener("click",()=>{
@@ -46,6 +46,7 @@ addBtn.addEventListener("click",()=>{
         alert("please enter something you idiot")
         return
     }
+    console.log(title.value)
     
     const smallDiv=document.createElement("div")
     smallDiv.classList.add("smallDiv")
@@ -55,8 +56,8 @@ addBtn.addEventListener("click",()=>{
     const paragraph=document.createElement("p")
     const removeBtn=document.createElement("button")
 
-    heading.innerText=titleValue
-    paragraph.innerText=discValue
+    heading.innerText=title.value
+    paragraph.innerText=disc.value
     removeBtn.innerText="X"
 
     leftSmall.append(heading,paragraph)
